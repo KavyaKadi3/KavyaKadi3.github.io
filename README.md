@@ -26,5 +26,17 @@ _This repo is a clone of: https://github.com/varadbhogayata/varadbhogayata.githu
 <img width="1440" alt="Activity 3 Repo 1" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/314c0c81-a9b8-40c9-b1c2-e7d237847ae0">
 <img width="1268" alt="Activity 3 Repo 2" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/028105cf-0428-4ff1-b783-b3d6c588f689">
 
+## Activity 4
+
+### Website
+<img width="1440" alt="Activity 4 Website 1" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/07dc5036-373f-4794-80aa-2ae36b502c27">
+<img width="1440" alt="Activity 4 Website 2" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/6d1b9632-25d3-4d76-bd78-da14487d5b1e">
+
+## Repo
+<img width="1440" alt="Activity 4 Repo 1" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/09f82a2a-cf10-4504-8e07-e7cf43a6e171">
+<img width="1252" alt="Activity 4 Repo 2" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/3a5e6534-c1f1-4544-8b96-dcc25b0227be">
+
+
+
 
 
