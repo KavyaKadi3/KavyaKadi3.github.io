@@ -519,13 +519,26 @@ p {
   flex-wrap: wrap;
 }
 
+/* Equal-size logo badge for all companies */
 .company-logo {
   width: 22px;
   height: 22px;
   object-fit: contain;
   vertical-align: -3px;
   margin-right: 0.45rem;
-  border-radius: 4px;
+
+  /* visibility in dark mode + consistent perceived size */
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  padding: 2px;
+  box-sizing: content-box;
+}
+
+/* Slightly enlarge just Manulife image content inside same outer badge */
+.company-logo.manulife-logo {
+  transform: scale(1.08);
+  transform-origin: center;
 }
 
 .timeline-what .role {
