@@ -972,3 +972,40 @@ small {
   font-size: 0.8rem;
   font-weight: 600;
 }
+
+/* Per-project accent colors */
+#projects .project-card {
+  border-top: 4px solid transparent;
+}
+
+#projects .project-accent-omr {
+  border-top-color: #7c4dff; /* violet */
+}
+
+#projects .project-accent-voyager {
+  border-top-color: #00a896; /* teal-green */
+}
+
+#projects .project-accent-lexi {
+  border-top-color: #ff8f00; /* amber */
+}
+
+/* Optional: tinted image backgrounds for distinct identity */
+#projects .project-accent-omr .project-image-wrap {
+  background: linear-gradient(135deg, #efe7ff, #f7f3ff);
+}
+
+#projects .project-accent-voyager .project-image-wrap {
+  background: linear-gradient(135deg, #ddf7f3, #eefcf9);
+}
+
+#projects .project-accent-lexi .project-image-wrap {
+  background: linear-gradient(135deg, #fff1d9, #fff8ea);
+}
+
+/* Make badge match Lexi accent */
+#projects .project-accent-lexi .project-badge {
+  background: #fff4dc;
+  border-color: #ffd99a;
+  color: #8a5a00;
+}
