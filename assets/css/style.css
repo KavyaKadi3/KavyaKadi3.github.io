@@ -1009,3 +1009,34 @@ small {
   border-color: #ffd99a;
   color: #8a5a00;
 }
+
+#education .edu-tech-block {
+  margin: 0 0 14px 0;
+}
+
+#education .edu-tech-label {
+  margin: 0 0 8px 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #5a7180;
+}
+
+#education .edu-tech-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#education .edu-tech-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #f1f7fb;
+  border: 1px solid #d7e8f2;
+  color: #1f4b63;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
