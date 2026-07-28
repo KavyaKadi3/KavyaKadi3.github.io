@@ -1010,17 +1010,107 @@ small {
   color: #8a5a00;
 }
 
-#education .edu-tech-block {
-  margin: 0 0 14px 0;
+/* ===== Academic Background: cleaner structure ===== */
+#education .edu-card.clean {
+  background: #fff;
+  border: 1px solid #e6eef3;
+  border-left: 5px solid #026896;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 6px 18px rgba(10, 54, 74, 0.08);
 }
 
-#education .edu-tech-label {
-  margin: 0 0 8px 0;
-  font-size: 0.82rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.4px;
+#education .edu-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+#education .edu-school {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 650;
+  color: #12384d;
+}
+
+#education .edu-degree {
+  margin: 6px 0 0 0;
+  color: #203442;
+  font-weight: 600;
+}
+
+#education .edu-location {
+  font-size: 0.92rem;
   color: #5a7180;
+  font-weight: 600;
+}
+
+#education .edu-label {
+  margin: 0 0 10px 0;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.45px;
+  color: #6a818f;
+  font-weight: 700;
+}
+
+#education .edu-minors-block {
+  margin-bottom: 18px; /* clear separation before research */
+}
+
+#education .edu-minors {
+  display: grid;              /* ensures separate lines cleanly when needed */
+  grid-template-columns: 1fr;
+  gap: 10px;                  /* spacing BETWEEN minors */
+}
+
+#education .edu-pill {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #eef7fb;
+  border: 1px solid #cfe8f3;
+  color: #1e4c63;
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+#education .edu-research-block {
+  border-top: 1px solid #edf3f7;
+  padding-top: 16px;          /* clear spacing from minors */
+}
+
+#education .edu-research-top {
+  margin-bottom: 10px;
+}
+
+#education .edu-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #fff4dc;
+  border: 1px solid #ffd99a;
+  color: #8a5a00;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+#education .edu-research {
+  margin: 0 0 14px 0;
+  line-height: 1.68;
+  color: #334a57;
+}
+
+#education .edu-tech-block {
+  margin: 0 0 14px 0;
 }
 
 #education .edu-tech-pills {
@@ -1041,9 +1131,27 @@ small {
   font-weight: 600;
 }
 
+#education .edu-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #edf7fc;
+  border: 1px solid #cfe8f3;
+  color: #026896;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
 
-/* Modern Contact section */
-#contact .contact-card {
+#education .edu-link:hover {
+  background: #dff1fa;
+  border-color: #b5dced;
+}
+
+/* ===== Contact: bigger intro + centered, balanced tiles ===== */
+#contact .contact-card.clean {
   background: #fff;
   border: 1px solid #e6eef3;
   border-radius: 16px;
@@ -1052,10 +1160,12 @@ small {
 }
 
 #contact .contact-intro {
-  margin: 0 0 18px 0;
-  color: #334a57;
-  line-height: 1.7;
-  font-size: 1rem;
+  margin: 0 0 20px 0;
+  color: #2c4554;
+  line-height: 1.65;
+  font-size: 1.08rem;  /* bigger so it doesn’t look tiny */
+  font-weight: 500;
+  text-align: left;
 }
 
 #contact .contact-grid {
@@ -1066,17 +1176,19 @@ small {
 
 #contact .contact-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;      /* vertically centered */
   gap: 12px;
-  padding: 12px;
+  min-height: 78px;         /* consistent card height */
+  padding: 12px 14px;
   border: 1px solid #e8f0f5;
   border-radius: 12px;
   background: #fcfeff;
 }
 
 #contact .contact-icon-wrap {
-  min-width: 36px;
-  height: 36px;
+  width: 38px;
+  min-width: 38px;
+  height: 38px;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -1086,11 +1198,17 @@ small {
   font-size: 1rem;
 }
 
+#contact .contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #contact .contact-label {
   margin: 0 0 2px 0;
-  font-size: 0.78rem;
+  font-size: 0.77rem;
   text-transform: uppercase;
-  letter-spacing: 0.35px;
+  letter-spacing: 0.4px;
   color: #67808f;
   font-weight: 700;
 }
@@ -1098,8 +1216,8 @@ small {
 #contact .contact-value {
   margin: 0;
   color: #1f3442;
-  font-weight: 500;
-  word-break: break-word;
+  font-weight: 550;
+  line-height: 1.35;
 }
 
 #contact .contact-link {
@@ -1116,7 +1234,8 @@ small {
     grid-template-columns: 1fr;
   }
 
-  #contact .contact-card {
+  #contact .contact-card.clean,
+  #education .edu-card.clean {
     padding: 18px;
   }
 }
