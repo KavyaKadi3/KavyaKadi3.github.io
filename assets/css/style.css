@@ -476,23 +476,54 @@ a.hoverline:hover {
   border-bottom: 3px solid #026896 !important;
 }
 
-#skills .card.large {
-  height: 360px;
-}
-
 #skills h4 {
   border-bottom: 1px solid #ddd;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
+  margin: 0 0 14px;
+  padding-bottom: 12px;
 }
 
-#skills .col img.responsive-img {
-  margin: 0 auto;
-  max-height: 100px;
-  padding-bottom: 10px;
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell;
+#skills .skills-group {
+  margin-bottom: 24px;
+}
+
+#skills .skills-group:last-child {
+  margin-bottom: 0;
+}
+
+#skills .skills-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#skills .skill-pill {
+  background: #e8f3f8;
+  border: 1px solid #c6deea;
+  border-radius: 999px;
+  color: #026896;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 6px 12px;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+#skills .skill-pill:hover {
+  background: #026896;
+  border-color: #026896;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  #skills .skills-pills {
+    gap: 8px;
+  }
+
+  #skills .skill-pill {
+    font-size: 0.82rem;
+    padding: 5px 10px;
+  }
 }
 
 .card.large .card-content p {
