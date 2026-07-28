@@ -776,3 +776,236 @@ small {
     gap: 8px;
   }
 }
+
+/* Modern Experience section */
+#experience .experience-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+#experience .experience-card {
+  background: #ffffff;
+  border: 1px solid #e6eef3;
+  border-left: 5px solid #026896;
+  border-radius: 12px;
+  padding: 20px 22px;
+  box-shadow: 0 4px 14px rgba(11, 58, 79, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#experience .experience-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(11, 58, 79, 0.12);
+}
+
+#experience .experience-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+#experience .experience-company {
+  margin: 0;
+  font-size: 1.28rem;
+  font-weight: 600;
+  color: #12384d;
+}
+
+#experience .experience-meta {
+  font-size: 0.92rem;
+  color: #5a7180;
+  font-weight: 500;
+}
+
+#experience .experience-role {
+  margin: 0 0 4px 0;
+  font-weight: 600;
+  color: #1f2f3a;
+}
+
+#experience .experience-timeline {
+  margin: 0 0 10px 0;
+  font-size: 0.92rem;
+  color: #026896;
+  font-weight: 600;
+}
+
+#experience .experience-summary {
+  margin: 0;
+  line-height: 1.65;
+  color: #324a57;
+}
+
+@media (max-width: 600px) {
+  #experience .experience-card {
+    padding: 16px;
+    border-radius: 10px;
+  }
+
+  #experience .experience-company {
+    font-size: 1.12rem;
+  }
+
+  #experience .experience-role {
+    font-size: 0.98rem;
+  }
+}
+
+/* Modern Projects section */
+#projects .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+#projects .project-card {
+  background: #fff;
+  border: 1px solid #e6eef3;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(10, 54, 74, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#projects .project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 26px rgba(10, 54, 74, 0.14);
+}
+
+#projects .project-image-wrap {
+  height: 180px;
+  background: linear-gradient(135deg, #dff1f8, #eef7fb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects .project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#projects .project-image-fallback {
+  background: linear-gradient(135deg, #026896, #3fa7d6);
+}
+
+#projects .project-initials {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#projects .project-body {
+  padding: 16px 16px 18px;
+}
+
+#projects .project-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+#projects .project-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 650;
+  color: #12384d;
+}
+
+#projects .project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #edf7fc;
+  border: 1px solid #cfe8f3;
+  color: #026896;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+#projects .project-link:hover {
+  background: #dff1fa;
+  border-color: #b5dced;
+}
+
+#projects .project-badge {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #fff4dc;
+  border: 1px solid #ffe2a8;
+  color: #8a5a00;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+#projects .project-summary {
+  margin: 0 0 12px 0;
+  color: #334a57;
+  line-height: 1.6;
+}
+
+#projects .project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#projects .project-tag {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #f1f7fb;
+  border: 1px solid #d7e8f2;
+  color: #1f4b63;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Per-project accent colors */
+#projects .project-card {
+  border-top: 4px solid transparent;
+}
+
+#projects .project-accent-omr {
+  border-top-color: #7c4dff; /* violet */
+}
+
+#projects .project-accent-voyager {
+  border-top-color: #00a896; /* teal-green */
+}
+
+#projects .project-accent-lexi {
+  border-top-color: #ff8f00; /* amber */
+}
+
+/* Optional: tinted image backgrounds for distinct identity */
+#projects .project-accent-omr .project-image-wrap {
+  background: linear-gradient(135deg, #efe7ff, #f7f3ff);
+}
+
+#projects .project-accent-voyager .project-image-wrap {
+  background: linear-gradient(135deg, #ddf7f3, #eefcf9);
+}
+
+#projects .project-accent-lexi .project-image-wrap {
+  background: linear-gradient(135deg, #fff1d9, #fff8ea);
+}
+
+/* Make badge match Lexi accent */
+#projects .project-accent-lexi .project-badge {
+  background: #fff4dc;
+  border-color: #ffd99a;
+  color: #8a5a00;
+}
