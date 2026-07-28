@@ -525,7 +525,8 @@ p {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
   padding: 3px;
   flex-shrink: 0;
-  vertical-align: middle;
+  vertical-align: -3px;
+  margin-right: 0.45rem;
 }
 
 .timeline-what .role {
