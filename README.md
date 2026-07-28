@@ -20,7 +20,6 @@ Deliberately boring, in the best way:
 index.html              the whole site
 assets/css/style.css    the whole design
 assets/img/             headshot, project images, favicons
-assets/resume/          résumé PDF
 ```
 
 Hosted on GitHub Pages. To publish a change: edit, commit, push.
