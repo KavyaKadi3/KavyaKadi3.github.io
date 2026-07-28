@@ -1,42 +1,26 @@
-# Kavya Kadi
+# kavyakadi3.github.io
 
-_This repo is a clone of: https://github.com/varadbhogayata/varadbhogayata.github.io_
+Personal site of **Kavya Kadi** — software engineer in Toronto working on applied AI and backend systems.
 
-## Activity 1
+Live at **[kavyakadi3.github.io](https://kavyakadi3.github.io/)**.
 
-<img width="1440" alt="Activity 1 Screenshot" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/2082f4aa-2f62-4000-8b39-9b6feb59a6cb">
+## How it's built
 
-## Activity 2
+Deliberately boring, in the best way:
 
-### Website
-<img width="1440" alt="Activity 2 Website 1" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/3767f1d8-4c7b-44d7-8c31-534ece797517">
-<img width="1440" alt="Activity 2 Website 2" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/cc2633d4-2817-4653-a00f-fc5bedfbb69e">
+- One hand-written HTML page, one hand-written stylesheet — no framework, no build step, no dependencies.
+- A few dozen lines of vanilla JS (hero word rotation, scroll reveals, mobile menu), all progressive enhancement — the site works fully with JavaScript disabled.
+- Fluid type and spacing via `clamp()`, automatic dark mode via `prefers-color-scheme`, reduced motion respected via `prefers-reduced-motion`.
+- Semantic landmarks, skip link, and visible focus states throughout.
+- SEO: canonical URL, Open Graph/Twitter cards, JSON-LD `Person` schema, `sitemap.xml`.
 
-## Repo
-<img width="1437" alt="Activity 2 Repo 1" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/e2149ec7-c130-4c7d-9cda-410d49a63904">
-<img width="1264" alt="Activity 2 Repo 2" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/f63988f3-5e00-4e67-a825-ad70d4a3c4d0">
+## Structure
 
-## Activity 3
+```
+index.html              the whole site
+assets/css/style.css    the whole design
+assets/img/             headshot, project images, favicons
+assets/resume/          résumé PDF
+```
 
-### Website
-<img width="1440" alt="Activity 3 Website 1" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/9c9b9464-d915-4de1-9ec8-af6625bf52bb">
-<img width="1440" alt="Activity 3 Website 2" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/b8adb9f1-3861-4389-836d-a356395da73f">
-
-## Repo
-<img width="1440" alt="Activity 3 Repo 1" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/314c0c81-a9b8-40c9-b1c2-e7d237847ae0">
-<img width="1268" alt="Activity 3 Repo 2" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/028105cf-0428-4ff1-b783-b3d6c588f689">
-
-## Activity 4
-
-### Website
-<img width="1440" alt="Activity 4 Website 1" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/07dc5036-373f-4794-80aa-2ae36b502c27">
-<img width="1440" alt="Activity 4 Website 2" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/6d1b9632-25d3-4d76-bd78-da14487d5b1e">
-
-## Repo
-<img width="1440" alt="Activity 4 Repo 1" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/09f82a2a-cf10-4504-8e07-e7cf43a6e171">
-<img width="1252" alt="Activity 4 Repo 2" src="https://github.com/KavyaKadi3/KavyaKadi3.github.io/assets/65524500/3a5e6534-c1f1-4544-8b96-dcc25b0227be">
-
-
-
-
-
+Hosted on GitHub Pages. To publish a change: edit, commit, push.
