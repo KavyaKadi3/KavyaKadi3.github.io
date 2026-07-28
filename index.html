@@ -1,10 +1,51 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script>document.documentElement.classList.add("js");</script>
+
+  <title>Kavya Kadi — I teach software to read</title>
+  <meta name="description"
+    content="Kavya Kadi is a software engineer in Toronto building applied-AI and backend systems that turn documents, rules, and signals people parse by hand into software that parses itself." />
+  <link rel="canonical" href="https://kavyakadi3.github.io/" />
+  <meta name="author" content="Kavya Kadi" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#faf6ef" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#131a18" media="(prefers-color-scheme: dark)" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_CA" />
+  <meta property="og:url" content="https://kavyakadi3.github.io/" />
+  <meta property="og:site_name" content="Kavya Kadi" />
+  <meta property="og:title" content="Kavya Kadi — I teach software to read" />
+  <meta property="og:description"
+    content="Applied-AI and backend engineer in Toronto. Loan agreements, sheet music, payroll law, firmware logs — turned into systems that read themselves." />
+  <meta property="og:image" content="https://kavyakadi3.github.io/assets/img/headshot.jpeg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Kavya Kadi — I teach software to read" />
+  <meta name="twitter:description"
+    content="Applied-AI and backend engineer in Toronto, building document intelligence and production platforms." />
+  <meta name="twitter:image" content="https://kavyakadi3.github.io/assets/img/headshot.jpeg" />
+
+  <!-- Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="/assets/css/style.css" />
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -14,583 +55,355 @@
   })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
   <!-- End Google Tag Manager -->
 
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <title>Kavya Kadi | Computer Engineer</title>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-126939217-2');
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kavya Kadi",
+    "jobTitle": "Software Engineer",
+    "worksFor": { "@type": "Organization", "name": "Manulife" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Toronto" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Toronto", "addressRegion": "ON", "addressCountry": "CA" },
+    "email": "mailto:kavyakadi@gmail.com",
+    "url": "https://kavyakadi3.github.io/",
+    "image": "https://kavyakadi3.github.io/assets/img/headshot.jpeg",
+    "sameAs": [
+      "https://www.linkedin.com/in/kavya-kadi",
+      "https://github.com/KavyaKadi3"
+    ]
+  }
   </script>
-
-  <!-- Open Graph-->
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Kavya Kadi | Computer Engineer" />
-  <meta property="og:description" content="Computer Engineer" />
-  <meta property="og:url" content="https://KavyaKadi3.github.io/" />
-  <meta property="og:site_name" content="Kavya Kadi | Computer Engineer" />
-  <meta property="article:publisher" content="https://KavyaKadi3.github.io/" />
-  <meta name="author" content="Kavya Kadi" />
-  <meta name="description" content="Computer Engineer with a passion for backend development and machine learning." />
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="robots" content="index, follow" />
-  <!-- Google Site Verification for indexing -->
-  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
 </head>
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
 
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/headshot.jpeg" class="circle img-responsive profile-pic" alt="avatar">
-        </a>
-      </li>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-
-      <li class="bold">
-        <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-
-      <li class="bold">
-        <!--
-        ICONS:
-        mdi-action-assessment
-        mdi-social-poll
-        mdi-av-equalizer
-        -->
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-      
-      <li class="bold">
-        <!--
-        ICONS:
-        -->
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-
-      <li class="bold">
-        <!-- 
-        1. mdi-communication-contacts
-        2. mdi-content-mail
-        3. mdi-communication-email
-        -->
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Kavya
-        Kadi</a><span class="black-text">Computer Engineer</span>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top">Kavya&nbsp;Kadi</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-toggle-bar" aria-hidden="true"></span>
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Site">
+        <a href="#story">Story</a>
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="/assets/resume/Kavya_Kadi_Website_Resume_.pdf" target="_blank"
+          rel="noopener">Résumé</a>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <!-- Nav class 3 -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
+  <main id="main">
 
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Main Content-->
-  <main>
-    <!-- First Section: Heading lines and image -->
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>I'm <span class="teal">Kavya Kadi.</span></h2>
-              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#17498f"></span></h5>
-              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>
-                Software Engineer focused on applied AI, backend systems, and production-grade platforms.
-                I build scalable software that transforms complex workflows into dependable products.
-              </h5>
-            </div>
-            <div class="social">
-              <a href="http://linkedin.com/in/kavya-kadi" target="_blank">
-                <button class="icon-btn linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </button>
-              </a>
-              <a href="https://github.com/KavyaKadi3/" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
-
-            </div>
-            <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Second Section: About -->
-    <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
-      <div class="container flow-text">      
-        <!-- <blockquote>
-          <h2>
-            A Computer Engineer with a passion for Backend Development and Machine Learning.
-          </h2>
-        </blockquote> -->  
-        <p>
-          I’m a software engineer with professional experience at Manulife, ADP, and AMD, building production systems across applied AI, backend engineering, data platforms, and developer tooling.
-        </p>
-        <p>
-          My work has spanned intelligent document processing, distributed workflows, production APIs, cloud migration, and semiconductor validation. I enjoy turning complex, manual processes into scalable and dependable software, with a focus on clean architecture, measurable outcomes, and systems that hold up in production.
-        </p>
-      </div>
-    </section>
-
-
-    <!-- Third Section: Experience -->
-    <section id="experience" class="section scrollspy">
-      <h3 class="page-title white-text teal">Experience</h3>
-      <div class="container">
-    
-        <div class="experience-grid">
-    
-          <article class="experience-card">
-            <div class="experience-head">
-              <h4 class="experience-company">Manulife</h4>
-              <span class="experience-meta">Toronto, ON</span>
-            </div>
-            <p class="experience-role">Software Engineer — Investments, AI</p>
-            <p class="experience-timeline">June 2024 – Present</p>
-            <p class="experience-summary">
-              Building production AI platforms and event-driven backend systems for intelligent document processing, including multi-agent workflows, validation APIs, and cloud-scale migration tooling.
-            </p>
-          </article>
-
-          <article class="experience-card">
-            <div class="experience-head">
-              <h4 class="experience-company">Automatic Data Processing (ADP)</h4>
-              <span class="experience-meta">Toronto, ON</span>
-            </div>
-            <p class="experience-role">Software Engineering Intern — Lifion Payroll Platform</p>
-            <p class="experience-timeline">June 2023 – August 2023</p>
-            <p class="experience-summary">
-              Built backend payroll platform capabilities in Node.js and SQL to automate tax-jurisdiction synchronization and improve reliability of payroll data processing.
-            </p>
-          </article>
-
-          <article class="experience-card">
-            <div class="experience-head">
-              <h4 class="experience-company">Advanced Micro Devices (AMD)</h4>
-              <span class="experience-meta">Markham, ON</span>
-            </div>
-            <p class="experience-role">Software Engineering Intern — Data Center Accelerator (AMD MI300)</p>
-            <p class="experience-timeline">May 2022 – April 2023</p>
-            <p class="experience-summary">
-              Developed Python automation and Airflow-based data pipelines for firmware regression and performance validation, reducing triage effort and accelerating issue detection during silicon bring-up.
-            </p>
-          </article>
-
-          <article class="experience-card">
-            <div class="experience-head">
-              <h4 class="experience-company">Fatal Light Awareness Program (FLAP) Canada</h4>
-              <span class="experience-meta">Toronto, ON</span>
-            </div>
-            <p class="experience-role">Machine Learning Intern</p>
-            <p class="experience-timeline">September 2020 – May 2021</p>
-            <p class="experience-summary">
-              Built and trained a PyTorch computer-vision pipeline to estimate bird-collision risk from building images, replacing manual assessment steps in the FLAP mobile workflow.
-            </p>
-          </article>
-    
-        </div>
-      </div>
-    </section>
-    
-    <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Selected Work</h3>
-      <div class="container">
-        <div class="projects-grid">
-
-          <article class="project-card project-accent-lexi">
-            <div class="project-image-wrap project-image-fallback">
-              <div class="project-initials">LM</div>
-            </div>
-            <div class="project-body">
-              <div class="project-head">
-                <h4 class="project-title">LexiMatch AI</h4>
-                <span class="project-badge">1st Place • Manulife Hackathon</span>
-              </div>
-              <p class="project-summary">
-                Built a Flask-based document comparison tool that uses NLP to surface clause-level differences in loan agreements and streamline legal-review workflows.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">Python</span>
-                <span class="project-tag">Flask</span>
-                <span class="project-tag">NLP</span>
-              </div>
-            </div>
-          </article>
-    
-          <article class="project-card project-accent-omr">
-            <div class="project-image-wrap">
-              <img alt="OMR project preview" src="/assets/img/project-omr.jpeg" class="project-image" />
-            </div>
-            <div class="project-body">
-              <div class="project-head">
-                <h4 class="project-title">OMR</h4>
-                <a class="project-link" href="https://github.com/KavyaKadi3/Optical-Music-Recognition" target="_blank" rel="noopener">
-                  View Repo <i class="fa fa-github"></i>
-                </a>
-              </div>
-              <p class="project-summary">
-                Built an Optical Music Recognition pipeline that reads sheet music and converts notation into machine-readable output for faster transcription workflows.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">Python</span>
-                <span class="project-tag">PyTorch</span>
-                <span class="project-tag">Computer Vision</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card project-accent-voyager">
-            <div class="project-image-wrap">
-              <img alt="Voyager Mapper project preview" src="/assets/img/project-voyager-mapper.jpeg" class="project-image" />
-            </div>
-            <div class="project-body">
-              <div class="project-head">
-                <h4 class="project-title">Voyager Mapper</h4>
-                <a class="project-link" href="https://github.com/KavyaKadi3/Voyager" target="_blank" rel="noopener">
-                  View Repo <i class="fa fa-github"></i>
-                </a>
-              </div>
-              <p class="project-summary">
-                Developed an interactive GIS application that helps users visualize maps, discover points of interest, and compute practical routes between locations.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">C++</span>
-                <span class="project-tag">GTK</span>
-                <span class="project-tag">GIS</span>
-              </div>
-            </div>
-          </article>
-    
-        </div>
-      </div>
-    </section>
-
-    <!-- Fifth Section: Skills -->
-    <section id="skills" class="section scrollspy">
-      <h3 class="page-title white-text teal">Technical Skills</h3>
-      <div class="container">
-        <div class="card">
-          <div class="card-content">
-            <div class="skills-group">
-              <h4 class="brown-text light">Languages</h4>
-              <div class="skills-pills">
-                <span class="skill-pill">Python</span>
-                <span class="skill-pill">TypeScript</span>
-                <span class="skill-pill">JavaScript</span>
-                <span class="skill-pill">SQL</span>
-                <span class="skill-pill">C++</span>
-              </div>
-            </div>
-
-            <div class="skills-group">
-              <h4 class="brown-text light">Backend, AI &amp; Data</h4>
-              <div class="skills-pills">
-                <span class="skill-pill">FastAPI</span>
-                <span class="skill-pill">Node.js</span>
-                <span class="skill-pill">LangChain</span>
-                <span class="skill-pill">PyTorch</span>
-                <span class="skill-pill">Azure OpenAI</span>
-                <span class="skill-pill">PostgreSQL</span>
-                <span class="skill-pill">MongoDB</span>
-                <span class="skill-pill">Databricks</span>
-                <span class="skill-pill">Apache Airflow</span>
-              </div>
-            </div>
-
-            <div class="skills-group">
-              <h4 class="brown-text light">Cloud &amp; DevOps</h4>
-              <div class="skills-pills">
-                <span class="skill-pill">Microsoft Azure</span>
-                <span class="skill-pill">API Management</span>
-                <span class="skill-pill">Key Vault</span>
-                <span class="skill-pill">Docker</span>
-                <span class="skill-pill">Kubernetes (AKS)</span>
-                <span class="skill-pill">GitHub Actions</span>
-                <span class="skill-pill">Jenkins</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Sixth Section: Education -->
-    <section id="education" class="section scrollspy">
-      <h3 class="page-title white-text teal">Academic Background</h3>
-      <div class="container">
-        <article class="edu-card clean">
-          <div class="edu-head">
-            <div>
-              <h4 class="edu-school">University of Toronto</h4>
-              <p class="edu-degree">BASc in Computer Engineering</p>
-            </div>
-            <span class="edu-location">Toronto, ON</span>
-          </div>
-    
-          <div class="edu-minors-block">
-            <p class="edu-label">Minors</p>
-            <div class="edu-minors">
-              <span class="edu-pill">Artificial Intelligence</span>
-              <span class="edu-pill">Engineering Business</span>
-            </div>
-          </div>
-    
-          <div class="edu-research-block">
-            <div class="edu-research-top">
-              <span class="edu-badge">Research Spotlight</span>
-            </div>
-            <p class="edu-research">
-              Built an interactive public-health analytics dashboard under Dr. Yu Chen to help users explore large datasets and quickly derive actionable insights.
-            </p>
-    
-            <div class="edu-tech-block">
-              <p class="edu-label">Tech Stack</p>
-              <div class="edu-tech-pills">
-                <span class="edu-tech-pill">Next.js</span>
-                <span class="edu-tech-pill">TypeScript</span>
-                <span class="edu-tech-pill">Node.js</span>
-                <span class="edu-tech-pill">Power BI</span>
-              </div>
-            </div>
-    
-            <a class="edu-link" href="https://fknm-test-deployment.vercel.app/" target="_blank" rel="noopener">
-              View Research Dashboard <i class="fa fa-external-link"></i>
-            </a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-<!-- Eighth Section: Contact -->
-<section id="contact" class="section scrollspy full-height">
-  <h3 class="page-title white-text teal">Let’s Connect</h3>
-  <div class="container">
-    <div class="contact-card clean">
-      <p class="contact-intro">
-        Open to conversations about software engineering, applied AI, and impactful product opportunities.
-      </p>
-
-      <div class="contact-grid">
-        <div class="contact-item">
-          <div class="contact-icon-wrap"><i class="fa fa-map-marker"></i></div>
-          <div class="contact-content">
-            <p class="contact-label">Location</p>
-            <p class="contact-value">Toronto, ON, Canada</p>
-          </div>
-        </div>
-
-        <div class="contact-item">
-          <div class="contact-icon-wrap"><i class="fa fa-envelope"></i></div>
-          <div class="contact-content">
-            <p class="contact-label">Email</p>
-            <a class="contact-value contact-link" href="mailto:kavyakadi@gmail.com">kavyakadi@gmail.com</a>
-          </div>
-        </div>
-
-        <div class="contact-item">
-          <div class="contact-icon-wrap"><i class="fa fa-linkedin"></i></div>
-          <div class="contact-content">
-            <p class="contact-label">LinkedIn</p>
-            <a class="contact-value contact-link" href="https://linkedin.com/in/kavya-kadi" target="_blank" rel="noopener">
-              linkedin.com/in/kavya-kadi
-            </a>
-          </div>
-        </div>
-
-        <div class="contact-item">
-          <div class="contact-icon-wrap"><i class="fa fa-phone"></i></div>
-          <div class="contact-content">
-            <p class="contact-label">Phone</p>
-            <p class="contact-value">Available upon request</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-    <!-- Eighth Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Let’s Connect</h3>
-      <div class="container">
-        <div class="contact-card">
-          <p class="contact-intro">
-            I’m always open to meaningful conversations about software engineering, applied AI, and building reliable systems.
+    <!-- ============ HERO ============ -->
+    <section id="top" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Kavya Kadi · Software engineer · Toronto</p>
+          <h1>
+            I teach software to read
+            <span class="rotator-slot"><em class="rotator" id="rotator">loan agreements</em></span>
+          </h1>
+          <p class="lede">
+            Applied-AI and backend engineer at Manulife. I take the documents, rules, and signals
+            that teams interpret by hand — and turn them into systems that interpret themselves,
+            reliably, in production.
           </p>
-    
-          <div class="contact-grid">
-            <div class="contact-item">
-              <div class="contact-icon-wrap">
-                <i class="fa fa-map-marker"></i>
-              </div>
-              <div class="contact-content">
-                <p class="contact-label">Location</p>
-                <p class="contact-value">Toronto, ON, Canada</p>
-              </div>
-            </div>
-    
-            <div class="contact-item">
-              <div class="contact-icon-wrap">
-                <i class="fa fa-envelope"></i>
-              </div>
-              <div class="contact-content">
-                <p class="contact-label">Email</p>
-                <a class="contact-value contact-link" href="mailto:kavyakadi@gmail.com">kavyakadi@gmail.com</a>
-              </div>
-            </div>
-    
-            <div class="contact-item">
-              <div class="contact-icon-wrap">
-                <i class="fa fa-linkedin"></i>
-              </div>
-              <div class="contact-content">
-                <p class="contact-label">LinkedIn</p>
-                <a class="contact-value contact-link" href="https://linkedin.com/in/kavya-kadi" target="_blank" rel="noopener">
-                  linkedin.com/in/kavya-kadi
-                </a>
-              </div>
-            </div>
-    
-            <div class="contact-item">
-              <div class="contact-icon-wrap">
-                <i class="fa fa-phone"></i>
-              </div>
-              <div class="contact-content">
-                <p class="contact-label">Phone</p>
-                <p class="contact-value">Available upon request</p>
-              </div>
-            </div>
+          <div class="hero-actions">
+            <a class="btn btn-solid" href="#work">See the work</a>
+            <a class="btn btn-ghost" href="mailto:kavyakadi@gmail.com">kavyakadi@gmail.com</a>
           </div>
+          <ul class="hero-links" aria-label="Profiles">
+            <li><a href="https://github.com/KavyaKadi3" target="_blank" rel="noopener">GitHub<span
+                  aria-hidden="true"> ↗</span></a></li>
+            <li><a href="https://www.linkedin.com/in/kavya-kadi" target="_blank" rel="noopener">LinkedIn<span
+                  aria-hidden="true"> ↗</span></a></li>
+          </ul>
+        </div>
+
+        <aside class="ledger reveal" aria-label="Things I have taught software to read">
+          <p class="ledger-title">Field notes — things I've taught software to read</p>
+          <ol class="ledger-list">
+            <li><span class="ledger-item">Photographs of glass towers</span><span class="ledger-where">FLAP Canada
+                · 2020</span></li>
+            <li><span class="ledger-item">Firmware regression logs</span><span class="ledger-where">AMD MI300 ·
+                2022</span></li>
+            <li><span class="ledger-item">Payroll &amp; tax jurisdictions</span><span class="ledger-where">ADP ·
+                2023</span></li>
+            <li><span class="ledger-item">Sheet music</span><span class="ledger-where">side project</span></li>
+            <li><span class="ledger-item">Loan agreements</span><span class="ledger-where">Manulife · now</span>
+            </li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ STORY ============ -->
+    <section id="story" class="section">
+      <div class="wrap section-grid">
+        <div class="section-side">
+          <h2 class="section-title"><span class="section-num" aria-hidden="true">01</span> The through-line</h2>
+          <figure class="portrait reveal">
+            <img src="/assets/img/headshot.jpeg" alt="Portrait of Kavya Kadi" width="362" height="362"
+              loading="lazy" decoding="async" />
+          </figure>
+        </div>
+        <div class="section-body flow reveal">
+          <p class="drop">
+            Every job I've had started with the same problem wearing a different costume:
+            a pile of information only humans could interpret — and never enough humans.
+          </p>
+          <p>
+            At a bird-conservation nonprofit, it was photographs of glass towers, with volunteers
+            eyeballing façades to guess collision risk. I trained a PyTorch vision model to make
+            the first pass. At AMD, it was firmware logs during MI300 silicon bring-up — engineers
+            triaging regressions by hand until my Airflow pipelines started surfacing failures on
+            their own. At ADP, it was tax-jurisdiction rules scattered across a payroll platform,
+            kept in sync by code I wrote instead of by people. Now at Manulife, it's investment
+            documents: multi-agent AI workflows that extract, validate, and route what analysts
+            used to retype.
+          </p>
+          <p>
+            That pattern taught me what to optimize for — not clever models, but boring
+            reliability. Clean APIs. Event-driven backends. Pipelines that still work at 2&nbsp;a.m.
+            The interesting part of applied AI isn't the demo; it's the unglamorous last mile
+            that makes it dependable.
+          </p>
+          <p class="aside-note">
+            The foundation: computer engineering at the University of Toronto, with minors in AI
+            and engineering business — where I also built a
+            <a href="https://fknm-test-deployment.vercel.app/" target="_blank" rel="noopener">public-health
+              analytics dashboard</a> for researchers under Dr.&nbsp;Yu&nbsp;Chen.
+          </p>
         </div>
       </div>
     </section>
 
-  <!-- typed.js -->
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Software Engineer", "Applied AI + Backend Engineer", "Platform Builder"],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
-    });
-  </script>
+    <!-- ============ WORK ============ -->
+    <section id="work" class="section section-alt">
+      <div class="wrap">
+        <h2 class="section-title"><span class="section-num" aria-hidden="true">02</span> Where the pattern played
+          out</h2>
 
+        <ol class="timeline">
+          <li class="timeline-entry reveal">
+            <p class="timeline-when">2024 — now</p>
+            <div class="timeline-what">
+              <h3>Manulife <span class="role">· Software Engineer, Investments AI</span></h3>
+              <p>
+                Documents in, decisions out. I build the production side of document intelligence
+                for investment operations: multi-agent workflows that read and reconcile filings,
+                validation APIs that keep the outputs honest, and event-driven backends and
+                migration tooling that move it all to cloud scale. The measure of success is
+                simple — analysts stop retyping, and start reviewing.
+              </p>
+            </div>
+          </li>
 
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+          <li class="timeline-entry reveal">
+            <p class="timeline-when">2023</p>
+            <div class="timeline-what">
+              <h3>ADP <span class="role">· Software Engineering Intern, Lifion Payroll</span></h3>
+              <p>
+                Payroll is law compiled into software, and the law keeps changing. I built Node.js
+                and SQL capabilities that automated tax-jurisdiction synchronization across the
+                platform — replacing a manual, error-prone process with one that keeps millions of
+                paychecks aligned with the rules by itself.
+              </p>
+            </div>
+          </li>
 
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+          <li class="timeline-entry reveal">
+            <p class="timeline-when">2022 — 23</p>
+            <div class="timeline-what">
+              <h3>AMD <span class="role">· Software Engineering Intern, Data Center GPU (MI300)</span></h3>
+              <p>
+                During silicon bring-up, every hour of triage is an hour of chip schedule. My
+                Python automation and Airflow pipelines took over firmware regression and
+                performance validation, flagging failures as they happened instead of after an
+                engineer went digging — faster issue detection on one of AMD's flagship
+                accelerators.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline-entry reveal">
+            <p class="timeline-when">2020 — 21</p>
+            <div class="timeline-what">
+              <h3>FLAP Canada <span class="role">· Machine Learning Intern</span></h3>
+              <p>
+                Millions of birds die in window collisions every year, and risk assessment meant a
+                human studying photos of buildings. I trained and shipped a computer-vision
+                pipeline that estimates collision risk straight from an image — folding what was a
+                manual review step into FLAP's mobile workflow.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2 class="section-title"><span class="section-num" aria-hidden="true">03</span> Off the clock, same
+          obsession</h2>
+
+        <div class="projects-grid">
+          <article class="project reveal">
+            <div class="project-media project-media-text" aria-hidden="true">
+              <span class="project-glyph">§</span>
+            </div>
+            <div class="project-body">
+              <h3>LexiMatch AI <span class="badge">1st place · Manulife hackathon</span></h3>
+              <p>
+                Two versions of a loan agreement can differ in one clause that costs real money.
+                LexiMatch reads both and surfaces every clause-level difference, cutting
+                legal review from a re-read to a diff. Python, Flask, NLP.
+              </p>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-media">
+              <img src="/assets/img/project-omr.jpeg" alt="Sheet music being processed by the optical music recognition pipeline"
+                width="315" height="160" loading="lazy" decoding="async" />
+            </div>
+            <div class="project-body">
+              <h3>Optical Music Recognition</h3>
+              <p>
+                Sheet music is a document too. This pipeline reads scanned scores and converts the
+                notation into machine-readable music — computer vision applied to a 400-year-old
+                file format. Python, PyTorch.
+              </p>
+              <a class="project-link" href="https://github.com/KavyaKadi3/Optical-Music-Recognition" target="_blank"
+                rel="noopener">Read the code<span aria-hidden="true"> ↗</span></a>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-media">
+              <img src="/assets/img/project-voyager-mapper.jpeg" alt="Voyager Mapper rendering an interactive city map"
+                width="948" height="280" loading="lazy" decoding="async" />
+            </div>
+            <div class="project-body">
+              <h3>Voyager Mapper</h3>
+              <p>
+                A GIS application that renders city maps, finds points of interest, and computes
+                practical routes — built close to the metal in C++ and GTK, because sometimes the
+                document software has to read is the city itself.
+              </p>
+              <a class="project-link" href="https://github.com/KavyaKadi3/Voyager" target="_blank"
+                rel="noopener">Read the code<span aria-hidden="true"> ↗</span></a>
+            </div>
+          </article>
+        </div>
+
+        <dl class="toolbox reveal">
+          <div class="toolbox-row">
+            <dt>Languages</dt>
+            <dd>Python · TypeScript · SQL · C++</dd>
+          </div>
+          <div class="toolbox-row">
+            <dt>Build with</dt>
+            <dd>FastAPI · Node.js · LangChain · PyTorch · Azure OpenAI · PostgreSQL · MongoDB · Airflow · Databricks
+            </dd>
+          </div>
+          <div class="toolbox-row">
+            <dt>Ship on</dt>
+            <dd>Azure (AKS, API Management, Key Vault) · Docker · GitHub Actions · Jenkins</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section section-contact">
+      <div class="wrap contact-inner reveal">
+        <h2 class="contact-title">Currently reading: <em>your message.</em></h2>
+        <p class="contact-lede">
+          If your team is drowning in documents, or you're building applied AI that has to
+          survive contact with production — I'd like to hear about it.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid btn-lg" href="mailto:kavyakadi@gmail.com">Write to me</a>
+          <a class="btn btn-ghost btn-lg" href="https://www.linkedin.com/in/kavya-kadi" target="_blank"
+            rel="noopener">Find me on LinkedIn</a>
+        </div>
+        <p class="contact-fineprint">Toronto, ON · <a
+            href="/assets/resume/Kavya_Kadi_Website_Resume_.pdf" target="_blank" rel="noopener">résumé (PDF)</a> ·
+          <a href="https://github.com/KavyaKadi3" target="_blank" rel="noopener">github.com/KavyaKadi3</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© 2026 Kavya Kadi. Written and built by hand — no template.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
   <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
-    })
+    (function () {
+      var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      // Rotating hero phrase
+      var rotator = document.getElementById("rotator");
+      var phrases = ["loan agreements", "sheet music", "payroll law", "firmware logs", "glass towers"];
+      if (rotator && !reduceMotion) {
+        var i = 0;
+        setInterval(function () {
+          rotator.classList.add("is-swapping");
+          setTimeout(function () {
+            i = (i + 1) % phrases.length;
+            rotator.textContent = phrases[i];
+            rotator.classList.remove("is-swapping");
+          }, 350);
+        }, 3200);
+      }
+
+      // Reveal-on-scroll
+      var revealables = document.querySelectorAll(".reveal");
+      if (reduceMotion || !("IntersectionObserver" in window)) {
+        revealables.forEach(function (el) { el.classList.add("in"); });
+      } else {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in");
+              io.unobserve(entry.target);
+            }
+          });
+        }, { rootMargin: "0px 0px -8% 0px" });
+        revealables.forEach(function (el) { io.observe(el); });
+      }
+
+      // Mobile menu
+      var toggle = document.querySelector(".menu-toggle");
+      var nav = document.getElementById("site-nav");
+      if (toggle && nav) {
+        toggle.addEventListener("click", function () {
+          var open = toggle.getAttribute("aria-expanded") === "true";
+          toggle.setAttribute("aria-expanded", String(!open));
+          nav.classList.toggle("is-open", !open);
+        });
+        nav.addEventListener("click", function (e) {
+          if (e.target.closest("a")) {
+            toggle.setAttribute("aria-expanded", "false");
+            nav.classList.remove("is-open");
+          }
+        });
+      }
+    })();
   </script>
 </body>
 
